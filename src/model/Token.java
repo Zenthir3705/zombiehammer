@@ -2,6 +2,7 @@ package model;
 
 /**
  * The class represents a single token that can be assigned to any field.
+ * @public
  */
 public abstract class Token {
 	
