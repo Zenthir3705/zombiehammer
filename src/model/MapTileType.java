@@ -10,15 +10,17 @@ public class MapTileType {
 		this.tileType = tileType;
 		this.percentage = percentage;
 	}
-
-	public TileType getTileType() {
-		return tileType;
-	}
+	
+	/*
+	 * Getter and Setter methods
+	 * @public
+	 */
+	public TileType getTileType() { return tileType; }
 
 	public double getPercentage() {
 		return percentage;
 	}
-
+	
 	public void setPercentage(double percentage) {
 		this.percentage = percentage;
 	}
