@@ -1,6 +1,7 @@
 package controller;
 
 import model.*;
+
 /**
  * Main class
  * @public
@@ -13,7 +14,7 @@ public class Main {
 	 * @public
 	 */
 	public static void main(String[] args) {
-		Map x = new Map(5, 15, MapType.STANDARD);
+		Map x = new Map(10, 15, MapType.STANDARD);
 		
 		x.initialize();
 		
