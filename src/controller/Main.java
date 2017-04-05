@@ -1,5 +1,7 @@
 package controller;
 
+import model.Map;
+
 /**
  * Main class
  * @public
@@ -12,6 +14,10 @@ public class Main {
 	 * @public
 	 */
 	public static void main(String[] args) {
+		doStuff();
+	}
+	
+	private static void doStuff() {
 		
 	}
 
