@@ -1,7 +1,6 @@
 package controller;
 
-import model.Map;
-
+import model.*;
 /**
  * Main class
  * @public
@@ -18,7 +17,11 @@ public class Main {
 	}
 	
 	private static void doStuff() {
+		Map x = new Map(5, 15, MapType.STANDARD);
 		
+		x.initialize();
+		
+		x.output();
 	}
 
 }
