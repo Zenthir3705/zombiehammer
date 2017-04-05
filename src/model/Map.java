@@ -7,7 +7,7 @@ public class Map {
 
 	private int xLenght = 0;
 	private int yLenght = 0;
-
+	
 	public Map(int xLenght, int yLenght, MapType type) {
 		System.out.println("INFO: New Map was defined with X:" + xLenght + " and Y:" + yLenght);
 		try {
@@ -26,7 +26,10 @@ public class Map {
 			e.printStackTrace();
 		}
 	}
-
+	
+	/*
+	 * Initialization of Map 
+	 */
 	public void initialize() {
 		if (xLenght != 0 || yLenght != 0) {
 			System.out.println("INFO: Initialized. Start generation of Map!");
