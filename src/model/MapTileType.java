@@ -23,8 +23,7 @@ public class MapTileType {
 	
 	public void setPercentage(double percentage) {
 		this.percentage = percentage;
-	}
-	
+	}	
 	
 	
 }

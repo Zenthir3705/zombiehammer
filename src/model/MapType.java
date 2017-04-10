@@ -41,5 +41,14 @@ public enum MapType {
 		return null;
 	}
 	
+	public TileType getRandomTileType(TileType[] adjacentTiles){
+		for(TileType tt : adjacentTiles){
+			
+		}		
+		return null;
+	}
+	
+	
+	
 		
 }

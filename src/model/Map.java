@@ -56,7 +56,7 @@ public class Map {
 	public Tile generateNewTile(int x, int y){
 		TileType tt;
 		Tile[] adjacentTiles = this.getAdjacentTiles(x, y); 		
-				
+		
 		tt = type.getRandomTileType();				
 		
 		return new Tile(tt, x, y);
